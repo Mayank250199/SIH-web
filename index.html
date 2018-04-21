@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="sih">
+
+<head>
+<title>DTC</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
+<link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script  src='js\jquery-2.2.3.min.js'></script>
+
+<!-- recapatcha-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- recapatcha end-->
+
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<!--//theme-style-->
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!--meta data-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//meta data-->
+<!-- online fonts -->
+<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<!-- /online fonts -->
+
+<!-- date picker-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css" />
+
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+<!-- date picker-->
+<!--angualar lib -->
+
+<script src="app\lib\angular.min.js" ></script>
+<script src="app\lib\angular-route.min.js" ></script>
+<script src="app\lib\angular-animate.min.js" ></script>
+<script src="controller\controller.js"></script>
+
+</head>
+
+  <body >
+<ng-include src="'header.html'"></ng-include>
+<!--header ng-include src="'header.html'" ></header>-->
+<!--//-->
+  <div class=" header-right">
+    <div class="banner">
+       <div class="slider">
+          <div class="callbacks_container">
+            <ul class="rslides" id="slider">
+           <li>
+                   <div class="banner1">
+                    <div class="caption">
+                      <h3><span>Secure Digital Bus</span> Pass</h3>
+                      <p><a href="#" class="scroll">Book now</a></p>
+                    </div>
+                  </div>
+               </li>
+           <li>
+                   <div class="banner2">
+                    <div class="caption">
+                      <h3><span>Secure Digital Bus</span> Pass</h3>
+                                <p><a href="#">Book now</a></p>
+                    </div>
+                  </div>
+               </li>
+               <li>
+                   <div class="banner3">
+                    <div class="caption">
+                      <h3><span>Secure Digital Bus</span> Pass </h3>
+                      <p><a href="#">Book now</a></p>
+                    </div>
+                  </div>
+               </li>
+                      <li>
+                   <div class="banner4">
+                    <div class="caption">
+                      <h3><span>Secure Digital Bus</span> Pass </h3>
+                      <p><a href="#">Book now</a></p>
+                    </div>
+                  </div>
+               </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br />
+  <!--partners-->
+  <div class="alert alert-warning" role="alert" style="font-size: 30px; font-weight:bolder; color:#ff4444;"><center>PASS DETAILS</center></div>
+      <div class="row">
+    <div class="col-md-3" id="pass_detail">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">Student Pass</h3><br />
+          <p class="card-text">For girls students.With Fee of Cost + Service charges.<br />Document Required:
+  ID Card issued by College Principal/School.<br /><br />Issue For Period:1 Year(Upto 30th June)<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+      <br />  <br /> <a href="#" class="btn btn-primary">Know more...</a><br /><br />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3" id="pass_detail">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">DTC Employee Pass</h3>
+          <p class="card-text">For UTC Employee & his family.With Fee of Cost + Service charges.<br /><br />Document Required:
+  Departmental ID Card of UTC Employee.<br /><br />Issue For Period:1 Month<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+  <br /><br /><a href="#" class="btn btn-primary">Know more...</a><br /><br />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3" id="pass_detail">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">Monthly Pass</h3><br />
+          <p class="card-text">For Everyone With 50% Concession + Fee of Cost + Service charges.<br /><br />Document Required:
+  Any Photo ID Card.<br /><br />Issue For Period:1 Month<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+        <br /> <br /> <a href="#" class="btn btn-primary">Know more...</a><br /><br />
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3" id="pass_detail">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">Government Pass</h3><br />
+          <p class="card-text">for MLA,MP,EX MLA,Freedom fighter of Delhi-NCR. With Fee of Cost + Service charges.<br /><br />Document Required:
+  Any Photo ID Card.<br /><br />Issue For Period:1 Month<br /><br />Journey Allowed:Point A to B in all Delhi-NCR Routes.</p>
+          <br /><a href="#" class="btn btn-primary">Know more...</a><br /><br />
+        </div>
+      </div>
+
+    </div>
+      </div>
+      <br /><br />
+  <!--//partners-->
+
+    <div class="w3-offers1">
+      <div class="container">
+        <div class="w3-agile-offers">
+          <h3> Registration</h3>
+          <p>Contrary to popular belief
+              , Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+      </div>
+    </div>
+    <!--Vertical Tab-->
+  <div class="categories-section main-grid-border" id="mobilew3layouts">
+
+    <div class="container">
+      <div class="category-list">
+        <div id="parentVerticalTab">
+          <div class="agileits-tab_nav">
+          <ul class="resp-tabs-list hor_1">
+            <li><i class="icon fa fa-ticket" aria-hidden="true"></i>New Pass</li>
+            <li><i class="icon fa fa-refresh" aria-hidden="true"></i>Renew Pass</li>
+            <li><i class="icon fa fa-credit-card" aria-hidden="true"></i>Duplicate Pass</li>
+            <li><i class="icon fa fa-id-card-o" aria-hidden="true"></i>Check Pass Status</li>
+            <li><i class="icon fa fa-id-card" aria-hidden="true"></i>Check Pass Validity</li>
+            <!-- <li><i class="icon fa fa-connectdevelop" aria-hidden="true"></i>Broad Band</li>
+            <li><i class="icon fa fa-flask" aria-hidden="true"></i>Gas</li>
+            <li><i class="icon fa fa-tint" aria-hidden="true"></i>Water</li>
+            <li><i class="icon fa fa-subway" aria-hidden="true"></i>Metro</li> -->
+          </ul>
+          </div>
+          <div class="resp-tabs-container hor_1">
+                        <!-- tab1 -->
+            <div>
+                            <div class="tabs-box">
+
+                    <i style="font-size: 80px;" class="fa fa-ticket" aria-hidden="true"></i>
+                <ul class="tabs-menu">
+                    <li><a href="#tab1"><label class="radio"><input type="radio" name="radio" checked=""><i></i>Please Fill in your Details</label></a></li>
+
+                </ul>
+           <div class="clearfix"> </div>
+           <div class="tab-grids">
+                    <div id="tab1" class="tab-grid">
+                          <div class="login-form">
+            <form action="pay.html" method="post" id="signup">
+            <ol>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Enter Your Full Name</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Full Name" name="full_name" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Enter Your Fathers Name</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Father's Name" name="father_name" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Email</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Email" name="email" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+                            <li>
+                                <div class="agileits-select">
+                                <select class="selectpicker show-tick" data-live-search="true" required="required" >
+                                  <option data-tokens="Select Operator">Select Gender</option>
+                                  <option data-tokens="Male">Male</option>
+                                  <option data-tokens="Female">Female</option>
+                                  <option data-tokens="Other">Other</option>
+                                </select>
+                                </div>
+                            </li>
+                            <li>
+                                              <h4>Enter your mobile number</h4>
+                              <input type="tel" id="tel" name="tel" pattern="\d{10}" placeholder="Enter Mobile Number" required="required" />
+                              <p class="validation01">
+                                <span class="invalid">Please enter a valid mobile number</span>
+                                <span class="valid">That's what we wanted!</span>
+                              </p>
+                            </li>
+                            <li>
+                              <div class="g-recaptcha" data-sitekey="6Lcpkj4UAAAAAMzjr41iUJzDgC6yIRo03_bMYJQS"></div>
+                            </li>
+
+                            <li>
+                                <input type="submit" class="submit" value="Submit and Continue..." />
+                            </li>
+                </ol>
+            </form>
+
+            </div>
+
+                    </div>
+                    <div id="tab2" class="tab-grid">
+                          <div class="login-form">
+
+
+            </div>
+                    </div>
+        </div>
+
+      <div class="clearfix"> </div>
+    </div>
+  <!-- script -->
+    <script>
+      $(document).ready(function() {
+        $("#tab2").hide();
+        $("#tab3").hide();
+        $("#tab4").hide();
+        $(".tabs-menu a").click(function(event){
+          event.preventDefault();
+          var tab=$(this).attr("href");
+          $(".tab-grid").not(tab).css("display","none");
+          $(tab).fadeIn("slow");
+        });
+      });
+    </script>
+
+
+
+
+
+                   </div>
+                        <!-- /tab1 -->
+      <!-- tab2 -->
+            <div>
+
+                          <div class="login-form">
+                                  <i class="icon fa fa-refresh inner-icon" aria-hidden="true"></i>
+            <form action="pay.html" method="post" id="signup">
+
+            <ol>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Enter Your Pass Regestration Number</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Regestration Number" name="full_name" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker1" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+
+                          <input type="text" id="datepicker1" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+            <li>
+                <div class="g-recaptcha" data-sitekey="6Lcpkj4UAAAAAMzjr41iUJzDgC6yIRo03_bMYJQS"></div>
+              </li>
+
+                            <li>
+                                <input type="submit" class="submit" value="Submit and Continue..." />
+                            </li>
+                </ol>
+            </form>
+ <img src="images/Renew.jpg"  id="img1"/>
+            </div>
+            </div>
+                        <!-- /tab2 -->
+
+                        <!-- tab3 -->
+        <div>
+                    <i class="icon fa fa-credit-card inner-icon" aria-hidden="true"></i>
+                    <div id="tab2" class="tab-grid">
+                          <div class="login-form">
+            <form action="pay.html" method="post" id="signup">
+            <ol>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Enter Your Pass Regestration Number</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Regestration Number" name="full_name" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker2" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker2" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+              <li>
+                <div class="g-recaptcha" data-sitekey="6Lcpkj4UAAAAAMzjr41iUJzDgC6yIRo03_bMYJQS"></div>
+              </li>
+                            <li>
+                                <input type="submit" class="submit" value="Submit and Continue..." />
+                            </li>
+                </ol>
+            </form>
+<img src="images/duplicate.jpg"  id="img1" />
+            </div>
+
+                    </div>
+                    </div>
+                        <!-- /tab3 -->
+
+
+                        <!-- tab4 -->
+                        <div>
+                            <i class="icon fa fa-id-card-o inner-icon" aria-hidden="true"></i>
+                    <div id="tab2" class="tab-grid">
+                          <div class="login-form">
+            <form action="pay.html" method="post" id="signup">
+            <ol>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Enter Your Pass Regestration Number</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Regestration Number " name="full_name" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker3" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker3" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+              <li>
+                <div class="g-recaptcha" data-sitekey="6Lcpkj4UAAAAAMzjr41iUJzDgC6yIRo03_bMYJQS"></div>
+              </li>
+                            <li>
+                                <input type="submit" class="submit" value="Submit and Continue..." />
+                            </li>
+                </ol>
+            </form>
+            <br />
+<img src="images/status.png" id="img1" />
+            </div>
+            </div>
+                        </div>
+                        <!-- /tab4 -->
+
+
+                        <!-- tab5 -->
+            <div>
+
+              <i class="icon fa fa-id-card inner-icon" aria-hidden="true"></i>
+                    <div id="tab2" class="tab-grid">
+                          <div class="login-form">
+            <form action="pay.html" method="post" id="signup">
+            <ol>
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Enter Your Pass Number</h4>
+                      <div class="mobile-rchge">
+                          <input type="text" placeholder="Pass number " name="pass_no" required="required"  />
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+
+              <li>
+                  <div class="mobile-right ">
+                      <h4>Date Of Birth</h4>
+                      <script>$(function() {
+        $( "#datepicker4" ).datepicker({
+            dateFormat : 'mm/dd/yy',
+            changeMonth : true,
+            changeYear : true,
+            yearRange: '-100y:c+nn',
+            maxDate: '-1d'
+        });
+    });</script>
+                      <div class="mobile-rchge">
+                          <input type="text" id="datepicker4" class="form-control" placeholder="Choose">
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+              </li>
+              <li>
+                <div class="g-recaptcha" data-sitekey="6Lcpkj4UAAAAAMzjr41iUJzDgC6yIRo03_bMYJQS"></div>
+              </li>
+                            <li>
+                                <input type="submit" class="submit" value="Submit and Continue..." />
+                            </li>
+                </ol>
+            </form>
+<img src="images/valid.jpg"  id="img1"/>
+            </div>
+            </div>
+
+            </div>
+                        <!-- /tab5 -->
+
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Plug-in Initialisation-->
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+</script>
+
+
+<!--phone-->
+  <div class="phone" id="mobileappagileits">
+    <div class="container">
+      <div class="col-md-6">
+        <div class="col-md-5 slid">
+          <!--- banner Slider starts Here --->
+            <script src="js/responsiveslides.min.js"></script>
+           <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+              $("#slider").responsiveSlides({
+                auto: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+              });
+            });
+            </script>
+
+          <div  id="top" class="callbacks_container">
+            <ul class="rslides" id="slider4">
+              <li>
+                <div class="mobile-device">
+                  <img src="images/mobile.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <div class="mobile-device">
+                  <img src="images/mobile1.png" alt="" />
+                </div>
+              </li>
+              <li>
+                <div class="mobile-device">
+                  <img src="images/mobile1.png" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      <!-- //container -->
+    </div>
+
+      <div class="col-md-6 phone-text">
+        <h4>Online Digital And Secured Bus Passes mobile app on your smartphone!</h4>
+                <p class="subtitle">Simple and Fast Payments</p>
+          <div class="text-1">
+            <h5>Recharge or Renew validity</h5>
+            <p>Recharge your pass just at one go...</p>
+          </div>
+          <div class="text-1">
+            <h5>Check Status</h5>
+            <p>Track the status of your pass approval and validity...</p>
+          </div>
+          <div class="text-1">
+            <h5>Duplicate Pass</h5>
+            <p>Recover your lost pass details here...</p>
+          </div>
+          <div class="agileinfo-dwld-app">
+              <h6>Download The App :
+                <a href="#"><i class="fa fa-apple"></i></a>
+                <a href="#"><i class="fa fa-windows"></i></a>
+                <a href="#"><i class="fa fa-android"></i></a>
+              </h6>
+            </div>
+      </div>
+            <div class="clearfix"></div>
+            <div class="wthree-mobile-app">
+        <form action="#" method="get">
+          <input class="text" type="tel" name="tel" placeholder="Enter Your Mobile Number" required="">
+          <input type="submit" value="Send Download Link">
+        </form>
+      </div>
+    </div>
+  </div>
+<!--//phone-->
+
+
+<!-- Support content -->
+  <div class="w3l-support">
+    <div class="container">
+      <div class="col-md-5 w3_agile_support_left">
+        <img src="images/cus.jpg" alt=" " class="img-responsive" />
+      </div>
+      <div class="col-md-7 w3_agile_support_right">
+        <h5>Online Support</h5>
+        <h3>24/7 Customer Service Support</h3>
+        <p>For any Help/Query Please Contact us at: +XX XXXXXXXXXX<br />
+
+                  or eMail at help.dtconline@gmail.com</p>
+        <div class="agile_more">
+          <a href="support.html" class="type-4">
+            <span> Support </span>
+            <span> Support  </span>
+            <span> Support  </span>
+            <span> Support  </span>
+            <span> Support  </span>
+            <span> Support  </span>
+          </a>
+        </div>
+        <br />
+        <br  />
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+<!-- //Support content -->
+
+
+<!--offers-->
+    <div class="w3-offers">
+      <div class="container">
+        <div class="w3-agile-offers">
+          <h3>the best offers</h3>
+          <p>Contrary to popular belief
+              , Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+      </div>
+    </div>
+<!--//offers-->
+
+
+
+
+<!--footer-->
+<footer>
+
+  <div class="w3l-footer-bottom">
+    <div class="container-fluid">
+      <div class="col-md-4 w3-footer-logo">
+        <h2><a href="index.html">DTC</a></h2>
+      </div>
+      <div class="col-md-3 agileits-footer-class">
+        <p > ©Copyright 2018 DTC. All Rights Reserved.</p>
+      </div>
+    <div class="clearfix"> </div>
+    </div>
+  </div>
+</footer>
+<!--//footer-->
+
+<!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working --><!-- Responsive-slider -->
+    <!-- Banner-slider -->
+<script src="js/responsiveslides.min.js"></script>
+   <script>
+    $(function () {
+      $("#slider4").responsiveSlides({
+        auto: true,
+        speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+    <!-- //Banner-slider -->
+<!-- //Responsive-slider -->
+<!-- Bootstrap select option script -->
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<!-- //Bootstrap select option script -->
+
+<!-- easy-responsive-tabs -->
+<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+<script src="js/easyResponsiveTabs.js"></script>
+<!-- //easy-responsive-tabs -->
+    <!-- here stars scrolling icon -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+          */
+
+          $().UItoTop({ easingType: 'easeOutQuart' });
+
+          });
+      </script>
+      <!-- start-smoth-scrolling -->
+      <script type="text/javascript" src="js/move-top.js"></script>
+      <script type="text/javascript" src="js/easing.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+          });
+        });
+      </script>
+      <!-- start-smoth-scrolling -->
+    <!-- //here ends scrolling icon -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+   </body>
+
+</html>
